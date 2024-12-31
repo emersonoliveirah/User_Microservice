@@ -40,6 +40,8 @@ public class UserModel implements Serializable {
         this.email = email;
     }
 
+
+
     //Melhorias possíveis para o serviço de usuário
         //private string password;
         //private string phone;
