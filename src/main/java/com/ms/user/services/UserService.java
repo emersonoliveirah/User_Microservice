@@ -35,4 +35,8 @@ public class UserService {
     public List<UserModel> getAllUsers() {
         return userRepository.findAll();
     }
+    @Transactional
+    public void deleteUserById(UUID userId) {
+        userRepository.deleteById(userId);
+    }
 }
